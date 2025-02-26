@@ -3,17 +3,17 @@
 using namespace std;
 
 int main() {
-  string greeting = "Hello";
-  cout << greeting <<endl;
+  // string greeting = "Hello";
+  // cout << greeting <<endl;
 
-  string firstName = "Sakib";
-  string lastName = " Hasan";
-  string fullName = firstName + "" + lastName;
-  string lastWord = " is a frontend developer";
-  string hisName = fullName.append(lastWord);
-  cout<<hisName<<endl;
+  // string firstName = "Sakib";
+  // string lastName = " Hasan";
+  // string fullName = firstName + "" + lastName;
+  // string lastWord = " is a frontend developer";
+  // string hisName = fullName.append(lastWord);
+  // cout<<hisName<<endl;
 
-  string myDesignation = "Junior Frontend Developer";
+  // string myDesignation = "Junior Frontend Developer";
   // cout<<"The designation length is: "<<myDesignation.size()<<endl;
   // cout<<myDesignation[0]<<endl;
   // string word = "World";
