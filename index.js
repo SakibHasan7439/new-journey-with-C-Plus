@@ -112,19 +112,19 @@
 
 // console.log(newAr);
 
-let string = "a4q6p2";
-let newStr = "";
+// let string = "a4q6p2";
+// let newStr = "";
 
-for(let x = 0; x <= string.length; x++){
-    if(!isNaN(parseInt(string[x]))){
-        let n = parseInt(string[x]);
-        for(let i = 0; i < n; i++){
-            newStr += string[x-1];
-        }
-    };
-};
+// for(let x = 0; x <= string.length; x++){
+//     if(!isNaN(parseInt(string[x]))){
+//         let n = parseInt(string[x]);
+//         for(let i = 0; i < n; i++){
+//             newStr += string[x-1];
+//         }
+//     };
+// };
 
-console.log(newStr);
+// console.log(newStr);
 
 // let s = "str";
 // let newS = '';
@@ -134,3 +134,17 @@ console.log(newStr);
 //     newS += s;
 // }
 // console.log(newS);
+
+let n = 15;
+
+for(let i = 1; i <= n; i++){
+    if(i % 3 === 0 && i % 5 === 0){
+        console.log("FizzBuzz");
+    }if(i % 3 === 0 && i % 5 !== 0){
+        console.log("Fizz");
+    }if(i % 5 === 0 && i % 3 !== 0){
+        console.log("Buzz");
+    }else {
+        console.log(i);
+    }
+}
