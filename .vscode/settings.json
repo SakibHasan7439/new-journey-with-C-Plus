@@ -3,6 +3,8 @@
     "files.associations": {
         "ostream": "cpp",
         "iostream": "cpp",
-        "istream": "cpp"
+        "istream": "cpp",
+        "system_error": "cpp",
+        "xlocale": "cpp"
     }
 }
